@@ -1,40 +1,40 @@
 # EduLibrary File Structure
 
-EduLibrary/
-├── backend/
-│   ├── config/
-│   │   └── db.js              # Database configuration
-│   ├── controllers/
-│   │   ├── bookController.js   # CRUD operations for books
-│   │   ├── userController.js   # User authentication and management
-│   │   └── contactController.js # Contact form handling
-│   ├── middleware/
-│   │   └── authMiddleware.js   # JWT authentication middleware
-│   ├── models/
-│   │   ├── User.js             # User model schema
-│   │   ├── Book.js             # Book model schema
-│   │   ├── Borrow.js           # Borrow model schema
-│   │   ├── Review.js           # Review model schema
-│   │   ├── Contact.js          # Contact form schema
-│   │   └── ChatbotQuery.js     # (Optional) Chatbot schema
-│   ├── routes/
-│   │   ├── bookRoutes.js       # Routes for book operations
-│   │   ├── userRoutes.js       # Routes for user authentication
-│   │   └── contactRoutes.js    # Routes for contact form
-│   ├── services/
-│   │   └── chatbotService.js   # (Optional) Chatbot API integration
-│   ├── app.js                  # Main server file
-│   └── server.js               # Server initialization
-├── client/
-│   ├── public/
-│   │   └── index.html          # Main HTML file
-│   ├── src/
-│   │   ├── components/         # React/Vue/HTML components (based on your choice)
-│   │   ├── App.js              # Main app component
-│   │   └── index.js            # Entry point for frontend
-│   ├── package.json            # Frontend dependencies
-│   └── .env                    # Environment variables (frontend)
-├── .gitignore                  # Git ignore file
-├── README.md                   # Project documentation
-├── package.json                # Backend dependencies
-└── .env                        # Environment variables (backend)
+**EduLibrary/**
+├── **backend/**
+│   ├── **config/**
+│   │   └── `db.js`              # Database configuration
+│   ├── **controllers/**
+│   │   ├── `bookController.js`   # CRUD operations for books
+│   │   ├── `userController.js`   # User authentication and management
+│   │   └── `contactController.js` # Contact form handling
+│   ├── **middleware/**
+│   │   └── `authMiddleware.js`   # JWT authentication middleware
+│   ├── **models/**
+│   │   ├── `User.js`             # User model schema
+│   │   ├── `Book.js`             # Book model schema
+│   │   ├── `Borrow.js`           # Borrow model schema
+│   │   ├── `Review.js`           # Review model schema
+│   │   ├── `Contact.js`          # Contact form schema
+│   │   └── `ChatbotQuery.js`     # (Optional) Chatbot schema
+│   ├── **routes/**
+│   │   ├── `bookRoutes.js`       # Routes for book operations
+│   │   ├── `userRoutes.js`       # Routes for user authentication
+│   │   └── `contactRoutes.js`    # Routes for contact form
+│   ├── **services/**
+│   │   └── `chatbotService.js`   # (Optional) Chatbot API integration
+│   ├── `app.js`                  # Main server file
+│   └── `server.js`               # Server initialization
+├── **client/**
+│   ├── **public/**
+│   │   └── `index.html`          # Main HTML file
+│   ├── **src/**
+│   │   ├── **components/**         # React/Vue/HTML components (based on your choice)
+│   │   ├── `App.js`              # Main app component
+│   │   └── `index.js`            # Entry point for frontend
+│   ├── `package.json`            # Frontend dependencies
+│   └── `.env`                    # Environment variables (frontend)
+├── `.gitignore`                  # Git ignore file
+├── `README.md`                   # Project documentation
+├── `package.json`                # Backend dependencies
+└── `.env`                        # Environment variables (backend)
